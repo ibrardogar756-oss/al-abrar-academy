@@ -41,7 +41,12 @@ export const metadata: Metadata = {
       "Learn Quran online with qualified teachers. Quran reading with Tajweed, memorization, Arabic and Islamic education for children and adults.",
     type: "website",
   },
+
+  verification: {
+    google: "C3AkSIkC_WPgrFeTPtJGubnw0ONphaCDfLKHH0d0pAk",
+  },
 };
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
