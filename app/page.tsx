@@ -33,7 +33,9 @@ export default function Home() {
             <a href="#courses" className="hover:text-yellow-400">
               Courses
             </a>
-
+<a href="#fees" className="hover:text-yellow-400">
+  Fees
+</a>
             <a href="#contact" className="hover:text-yellow-400">
               Contact
             </a>
@@ -84,7 +86,13 @@ export default function Home() {
               >
                 Courses
               </a>
-
+<a
+  href="#fees"
+  onClick={() => setMenuOpen(false)}
+  className="hover:text-yellow-400"
+>
+  Fees
+</a>
               <a
                 href="#contact"
                 onClick={() => setMenuOpen(false)}
@@ -145,7 +153,7 @@ export default function Home() {
               <div className="relative w-full max-w-lg">
 
                 <img
-                  src="https://sahalforkids.com/assets/img/photos/hero-2.jpeg"
+                  src="/home-quran.png"
                   alt="Child attending an online class"
                   className="w-full h-[350px] md:h-[430px] object-cover rounded-3xl shadow-2xl"
                 />
@@ -535,11 +543,11 @@ export default function Home() {
     {/* Right Card */}
     <div className="bg-white/10 rounded-2xl p-8 text-center border border-white/10 shadow-xl">
 
-      <img
-        src="https://images.pexels.com/photos/5905445/pexels-photo-5905445.jpeg?auto=compress&cs=tinysrgb&w=1200"
-        alt="Online Quran learning"
-        className="w-full h-72 object-cover rounded-xl mb-6"
-      />
+     <img
+  src="/about-quran.png"
+  alt="Online Quran learning at Al Abrar Academy"
+  className="w-full h-[350px] md:h-[430px] object-cover rounded-3xl shadow-2xl"
+/>
 
       <h3 className="text-2xl font-bold">
         Quran & Islamic Education
@@ -832,117 +840,292 @@ export default function Home() {
 
   </div>
 </section>
+{/* Fee Structure Section */}
+<section id="fees" className="px-8 py-20 bg-white">
+  <div className="max-w-6xl mx-auto">
+
+    <div className="text-center mb-12">
+      <p className="text-green-700 font-semibold tracking-widest">
+        FEE STRUCTURE
+      </p>
+
+      <h2 className="text-4xl font-bold text-green-950 mt-2">
+        Choose Your Learning Plan
+      </h2>
+
+      <p className="text-gray-600 mt-4 max-w-2xl mx-auto leading-7">
+        Flexible monthly plans for students and families around the world.
+        All classes are one-to-one and 30 minutes long.
+      </p>
+    </div>
+
+    {/* UK Plans */}
+    <div className="mb-14">
+      <h3 className="text-2xl font-bold text-green-950 text-center mb-8">
+        🇬🇧 UK Plans
+      </h3>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            5 Days / Week
+          </h4>
+          <p className="text-gray-500 mt-2">
+            20 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            £40
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            3 Days / Week
+          </h4>
+          <p className="text-gray-500 mt-2">
+            12 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            £30
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            2 Days / Week
+          </h4>
+          <p className="text-gray-500 mt-2">
+            8 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            £25
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            Weekend Classes
+          </h4>
+          <p className="text-gray-500 mt-2">
+            8 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            £25
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    {/* USA Plans */}
+    <div>
+      <h3 className="text-2xl font-bold text-green-950 text-center mb-8">
+        🇺🇸 USA Plans
+      </h3>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            5 Days / Week
+          </h4>
+          <p className="text-gray-500 mt-2">
+            20 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            $55
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            3 Days / Week
+          </h4>
+          <p className="text-gray-500 mt-2">
+            12 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            $40
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            2 Days / Week
+          </h4>
+          <p className="text-gray-500 mt-2">
+            8 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            $30
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+        <div className="border rounded-2xl p-7 text-center shadow-sm">
+          <h4 className="text-xl font-bold text-green-950">
+            Weekend Classes
+          </h4>
+          <p className="text-gray-500 mt-2">
+            8 classes / month
+          </p>
+          <p className="text-4xl font-bold text-green-700 mt-5">
+            $30
+          </p>
+          <p className="text-gray-500 mt-2">
+            per month
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
       {/* Free Trial Section */}
-      <section id="free-trial" className="px-8 py-20 bg-green-950 text-white">
+<section id="free-trial" className="px-8 py-20 bg-green-950 text-white">
 
-        <div className="max-w-5xl mx-auto text-center">
+  <div className="max-w-5xl mx-auto text-center">
 
-          <p className="text-yellow-400 font-semibold">
-            START YOUR JOURNEY
-          </p>
+    <p className="text-yellow-400 font-semibold">
+      START YOUR JOURNEY
+    </p>
 
-          <h2 className="text-4xl font-bold mt-3">
-            Ready to Learn the Quran?
-          </h2>
+    <h2 className="text-4xl font-bold mt-3">
+      Ready to Learn the Quran?
+    </h2>
 
-          <p className="text-green-100 mt-5 max-w-2xl mx-auto">
-            Book your 3-day free trial and experience personalized
-            online Quran classes from the comfort of your home.
-          </p>
+    <p className="text-green-100 mt-5 max-w-2xl mx-auto">
+      Book your 3-day free trial and experience personalized
+      online Quran classes from the comfort of your home.
+    </p>
 
+    <div className="mt-10 bg-white text-gray-900 rounded-2xl p-8 max-w-2xl mx-auto text-left">
 
-          <div className="mt-10 bg-white text-gray-900 rounded-2xl p-8 max-w-2xl mx-auto text-left">
+      <h3 className="text-2xl font-bold text-green-950 text-center mb-6">
+        Book Your Free Trial
+      </h3>
 
-            <h3 className="text-2xl font-bold text-green-950 text-center mb-6">
-              Book Your Free Trial
-            </h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
+        <div>
+          <label className="block font-semibold mb-2">
+            Your Name
+          </label>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <input
+            type="text"
+            placeholder="Enter your name"
+            className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
+          />
+        </div>
 
-              <div>
-                <label className="block font-semibold mb-2">
-                  Your Name
-                </label>
+        <div>
+          <label className="block font-semibold mb-2">
+            Email Address
+          </label>
 
-                <input
-                  type="text"
-                  placeholder="Enter your name"
-                  className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
-                />
-              </div>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
+          />
+        </div>
 
+        <div>
+          <label className="block font-semibold mb-2">
+            Country
+          </label>
 
-              <div>
-                <label className="block font-semibold mb-2">
-                  Email Address
-                </label>
+          <input
+            type="text"
+            placeholder="e.g. UK, USA"
+            className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
+          />
+        </div>
 
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
-                />
-              </div>
+        <div>
+          <label className="block font-semibold mb-2">
+            WhatsApp Number
+          </label>
 
+          <input
+            type="tel"
+            placeholder="Enter your WhatsApp number"
+            className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
+          />
+        </div>
 
-              <div>
-                <label className="block font-semibold mb-2">
-                  Country
-                </label>
+        <div className="md:col-span-2">
 
-                <input
-                  type="text"
-                  placeholder="e.g. UK, USA"
-                  className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
-                />
-              </div>
+          <label className="block font-semibold mb-2">
+            Course
+          </label>
 
+          <select className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700">
 
-              <div>
-                <label className="block font-semibold mb-2">
-                  WhatsApp Number
-                </label>
+            <option>Select a course</option>
+            <option>Quran Reading with Tajweed</option>
+            <option>Quran Memorization</option>
+            <option>Basic Islamic Education</option>
+            <option>Tajweed and Tarteel Course</option>
+            <option>Arabic Courses</option>
+            <option>Quran Translation</option>
 
-                <input
-                  type="tel"
-                  placeholder="Enter your WhatsApp number"
-                  className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700"
-                />
-              </div>
-              <div className="md:col-span-2">
-
-                <label className="block font-semibold mb-2">
-                  Course
-                </label>
-
-                <select className="w-full border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-700">
-
-                  <option>Select a course</option>
-                  <option>Quran Reading with Tajweed</option>
-                  <option>Quran Memorization</option>
-                  <option>Basic Islamic Education</option>
-                  <option>Tajweed and Tarteel Course</option>
-                  <option>Arabic Courses</option>
-                  <option>Quran Translation</option>
-
-                </select>
-
-              </div>
-
-            </div>
-
-
-            <button className="w-full mt-6 bg-green-950 text-white py-3 rounded-lg font-bold hover:bg-green-800">
-              Request Free Trial
-            </button>
-
-          </div>
+          </select>
 
         </div>
-      </section>
+
+      </div>
+
+      
+<button
+  type="button"
+  onClick={() =>
+    alert(
+      "Thank you! Your free trial request has been received. Our team will contact you shortly to confirm your class schedule."
+    )
+  }
+  className="w-full mt-6 bg-green-950 text-white py-3 rounded-lg font-bold hover:bg-green-800"
+>
+  Request Free Trial
+</button>
+
+<a
+  href="https://wa.me/923000219756"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full mt-3 block text-center bg-green-600 text-white py-3 rounded-lg font-bold hover:bg-green-700"
+>
+  Contact Us on WhatsApp
+</a>
 
 
+    </div>
+
+  </div>
+</section>
       {/* Footer */}
       <footer className="bg-gray-950 text-white">
 
