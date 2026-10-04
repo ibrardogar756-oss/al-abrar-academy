@@ -40,6 +40,7 @@ export const metadata: Metadata = {
     description:
       "Learn Quran online with qualified teachers. Quran reading with Tajweed, memorization, Arabic and Islamic education for children and adults.",
     type: "website",
+    images: ["/home-quran.png"],
   },
 
   verification: {
