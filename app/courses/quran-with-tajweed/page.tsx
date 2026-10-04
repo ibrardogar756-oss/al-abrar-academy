@@ -38,10 +38,10 @@ export default function QuranWithTajweedPage() {
             </a>
 
             <a
-              href="/#fees"
+              href="/#pricing"
               className="hover:text-yellow-400 transition"
             >
-              Fees
+              Pricing
             </a>
 
             <a
@@ -97,11 +97,11 @@ export default function QuranWithTajweedPage() {
             </a>
 
             <a
-              href="/#fees"
+              href="/#pricing"
               onClick={() => setMenuOpen(false)}
               className="hover:text-yellow-400"
             >
-              Fees
+              Pricing
             </a>
 
             <a
@@ -489,7 +489,7 @@ export default function QuranWithTajweedPage() {
             </p>
 
             <h2 className="text-3xl md:text-4xl font-bold mt-3">
-              Start Your 3-Day Free Trial
+              Book Your 3-Day Free Trial
             </h2>
 
             <p className="text-green-100 mt-5 leading-7 max-w-2xl mx-auto">
@@ -502,7 +502,7 @@ export default function QuranWithTajweedPage() {
               href="/#free-trial"
               className="inline-block mt-8 bg-yellow-500 text-green-950 px-8 py-3 rounded-lg font-bold hover:bg-yellow-400 transition"
             >
-              Start Free Trial
+              Book Your Free Trial
             </a>
 
             <div className="mt-5">
@@ -563,10 +563,10 @@ export default function QuranWithTajweedPage() {
               </a>
 
               <a
-                href="/#fees"
+                href="/#pricing"
                 className="hover:text-white"
               >
-                Fees
+                Pricing
               </a>
 
               <a

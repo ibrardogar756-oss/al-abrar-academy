@@ -37,10 +37,10 @@ export default function BasicIslamicEducation() {
             </a>
 
             <a
-              href="/#fees"
+              href="/#pricing"
               className="hover:text-yellow-400 transition"
             >
-              Fees
+              Pricing
             </a>
 
             <a
@@ -83,8 +83,8 @@ export default function BasicIslamicEducation() {
               Courses
             </a>
 
-            <a href="/#fees" className="hover:text-yellow-400">
-              Fees
+            <a href="/#pricing" className="hover:text-yellow-400">
+              Pricing
             </a>
 
             <a href="/#contact" className="hover:text-yellow-400">
@@ -561,8 +561,8 @@ export default function BasicIslamicEducation() {
                 Courses
               </a>
 
-              <a href="/#fees" className="hover:text-white">
-                Fees
+              <a href="/#pricing" className="hover:text-white">
+                Pricing
               </a>
 
               <a href="/#contact" className="hover:text-white">

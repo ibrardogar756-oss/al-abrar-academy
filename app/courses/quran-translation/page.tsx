@@ -27,8 +27,8 @@ export default function QuranTranslation() {
               Courses
             </a>
 
-            <a href="/#fees" className="hover:text-yellow-400 transition">
-              Fees
+            <a href="/#pricing" className="hover:text-yellow-400 transition">
+              Pricing
             </a>
 
             <a href="/#contact" className="hover:text-yellow-400 transition">
@@ -68,8 +68,8 @@ export default function QuranTranslation() {
               Courses
             </a>
 
-            <a href="/#fees" className="hover:text-yellow-400">
-              Fees
+            <a href="/#pricing" className="hover:text-yellow-400">
+              Pricing
             </a>
 
             <a href="/#contact" className="hover:text-yellow-400">
@@ -546,8 +546,8 @@ export default function QuranTranslation() {
                 Courses
               </a>
 
-              <a href="/#fees" className="hover:text-white">
-                Fees
+              <a href="/#pricing" className="hover:text-white">
+                Pricing
               </a>
 
               <a href="/#contact" className="hover:text-white">

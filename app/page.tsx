@@ -1162,8 +1162,8 @@ export default function Home() {
                 </summary>
 
                 <p className="text-gray-600 mt-4 leading-7">
-                  Payment arrangements can be discussed with the academy when
-                  enrolling. We will provide the available payment method and
+                  Payment options will be provided by the academy when
+                  enrolling. We will share the available payment method and
                   instructions based on the student&apos;s country and selected
                   course plan.
                 </p>
@@ -1188,7 +1188,7 @@ export default function Home() {
 
               <p className="text-gray-600 mt-4 max-w-2xl mx-auto leading-7">
                 Flexible monthly plans for students and families around the
-                world. All classes are one-to-one and 30 minutes long.
+                world. All classes are one-to-one, 30-minute sessions.
               </p>
             </div>
           </Reveal>
