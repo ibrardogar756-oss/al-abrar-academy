@@ -1367,7 +1367,7 @@ export default function Home() {
 
                   try {
                     const response = await fetch(
-                      "/api/management/free-trial",
+                      "/api/free-trial",
                       {
                         method: "POST",
                         headers: {
