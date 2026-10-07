@@ -306,7 +306,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div className="overflow-hidden">
                   <img
-                    src="https://quranspecialistonline.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-15-at-12.48.56-AM.jpeg"
+                    src="/quran-with-tajweed.png.png"
                     alt="Quran Reading with Tajweed"
                     className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -337,7 +337,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div className="overflow-hidden">
                   <img
-                    src="https://abuzahra.org/cdn/shop/files/59681a3d34db048e03cdccdff9ac5807.jpg?v=1733670193&width=3200"
+                    src="/memorize-quran.png.jpg"
                     alt="Quran Memorization"
                     className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -368,7 +368,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div className="overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/37350652/pexels-photo-37350652/free-photo-of-young-boy-reading-quran-in-classroom.jpeg?auto=compress&dpr=1&h=750&w=1260"
+                    src="/basic-islamic-education.png.jpg"
                     alt="Basic Islamic Education"
                     className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -399,7 +399,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div className="overflow-hidden">
                   <img
-                    src="https://cdn.majalahpama.my/2024/06/quran1.jpg"
+                    src="/tajweed-and-tarteel.png.jpg"
                     alt="Tajweed and Tarteel Course"
                     className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -430,7 +430,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div className="overflow-hidden">
                   <img
-                    src="https://alhuda.com.ng/static/media/3.30123f01e83a8781b909.png"
+                    src="/arabic-courses.png.png"
                     alt="Arabic Courses"
                     className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -461,7 +461,7 @@ export default function Home() {
               <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border hover:shadow-xl hover:-translate-y-1 transition duration-300">
                 <div className="overflow-hidden">
                   <img
-                    src="https://areeb-academy.com/wp-content/uploads/2024/05/boy-girl-reading-quran_746565-59726.jpg"
+                    src="/quran-translation.png.jpg"
                     alt="Quran Translation"
                     className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -1049,9 +1049,9 @@ export default function Home() {
                 </summary>
 
                 <p className="text-gray-600 mt-4 leading-7">
-                  Class duration depends on the student&apos;s age, course,
-                  and learning needs. The schedule and class duration can be
-                  discussed when arranging the trial and regular classes.
+                  Each online class is 30 minutes long. This gives students focused,
+one-to-one learning time with their tutor while keeping the lessons
+manageable and engaging.
                 </p>
               </details>
 
